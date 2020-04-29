@@ -1,24 +1,41 @@
-## GroupDocs.Comparison Cloud SDK for Php
+## GroupDocs.Comparison Cloud SDK for PHP Examples
+This repository contains [Examples](Examples) projects for [GroupDocs.Comparison Cloud SDK for PHP](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php) to help you learn and write your own applications.
 
-[GroupDocs.Comparison Cloud SDK for Php](https://products.groupdocs.cloud/comparison/Php) has been developed to provides a one-stop-shop solution for comparing documents in all common business formats. Supported file types include PDF, Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, plain text, and others. The API is highly scalable, easily customizable and helps the developers to utilize all the features of the API in an efficient and easier way. With this single API.
 
-This repository contains [Examples](Examples) projects for [GroupDocs.Comparison Cloud SDK for Php](https://products.groupdocs.cloud/comparison/Php) to help you learn and write your own applications.
+[GroupDocs.Comparison Cloud SDK for PHP](https://products.groupdocs.cloud/comparison/php) allows you to work with [GroupDocs.Comparison Cloud API](https://products.groupdocs.cloud/comparison) REST APIs in your PHP applications.
 
 <p align="center">
-
-  <a title="Download complete GroupDocs.Comparison Cloud SDK Examples for Php source code" href="https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-Php-samples/archive/master.zip">
+  <a title="Download complete GroupDocs.Comparison Cloud SDK PHP Example source code" href="https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php-samples/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
 
-Directory | Description
---------- | -----------
-[Examples](Examples)  | A collection of Php Cloud SDK examples that help you learn the product features
+## Prerequisites
+
++ PHP with Composer installed
++ Get your AppSID and AppKey at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
+
+## How to Run the Examples?
+
+The package contains PHP examples. Follow the given steps to proceed run:
+
+* Extract the downloaded project
+* Edit CommonUtils.php and put appSid and appKey, obtained from [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) there
+* Go to "Examples" directory of the project
+* Execute "composer update" command
+* Run examples using "php .\RunExamples.php" command
+
+For more details, visit  [Getting Started](https://docs.groupdocs.cloud/display/comparisoncloud/Getting+Started).
+
+## Licensing
+All GroupDocs.Comparison Cloud SDKs are licensed under [MIT License](LICENSE).
 
 ## Resources
++ [**Website**](https://www.groupdocs.cloud)
++ [**Product Home**](https://products.groupdocs.cloud/comparison)
++ [**Documentation**](https://docs.groupdocs.cloud/display/comparisoncloud/Home)
++ [**Free Support Forum**](https://forum.groupdocs.cloud/c/comparison)
++ [**Blog**](https://blog.groupdocs.cloud/category/comparison)
 
-+ **Website:** [www.GroupDocs.cloud](http://www.GroupDocs.cloud)
-+ **Product Home:** [GroupDocs.Comparison Cloud SDK for Php](https://products.groupdocs.cloud/comparison/Php)
-+ **Documentation:** [GroupDocs.Comparison Cloud SDK Documentation](https://docs.groupdocs.cloud/display/comparisoncloud/Home)
-+ **Free Support:** [GroupDocs.Comparison Cloud SDK Free Support Forum](https://forum.groupdocs.cloud/c/comparison)
-+ **Blog:** [GroupDocs.Comparison Cloud SDK Blog](https://blog.groupdocs.cloud/category/comparison/)
+## Contact Us
+Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/comparison).
