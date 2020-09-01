@@ -25,17 +25,9 @@ The package contains PHP examples. Follow the given steps to proceed run:
 * Execute "composer update" command
 * Run examples using "php .\RunExamples.php" command
 
-For more details, visit  [Getting Started](https://docs.groupdocs.cloud/display/comparisoncloud/Getting+Started).
+For more details, visit  [Getting Started](https://docs.groupdocs.cloud/comparison/getting-started/).
 
 ## Licensing
 All GroupDocs.Comparison Cloud SDKs are licensed under [MIT License](LICENSE).
 
-## Resources
-+ [**Website**](https://www.groupdocs.cloud)
-+ [**Product Home**](https://products.groupdocs.cloud/comparison)
-+ [**Documentation**](https://docs.groupdocs.cloud/display/comparisoncloud/Home)
-+ [**Free Support Forum**](https://forum.groupdocs.cloud/c/comparison)
-+ [**Blog**](https://blog.groupdocs.cloud/category/comparison)
-
-## Contact Us
-Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/comparison).
+[Home](https://www.groupdocs.cloud/) | [Product Page](https://products.groupdocs.cloud/comparison/php) | [Docs](https://docs.groupdocs.cloud/comparison/) | [Demos](https://products.groupdocs.app/comparison/family) | [API Reference](https://apireference.groupdocs.cloud/comparison/) | [Source Code](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php) | [Blog](https://blog.groupdocs.cloud/category/comparison/) | [Free Support](https://forum.groupdocs.cloud/c/comparison) | [Free Trial](https://purchase.groupdocs.cloud/trial)
