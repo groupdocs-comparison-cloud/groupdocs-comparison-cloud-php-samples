@@ -3,9 +3,9 @@
 // Utility class to hold the constants and static functions
 class Utils {
 
-    // TODO: Get your AppSID and AppKey at https://dashboard.groupdocs.cloud (free registration is required)
-    static $AppSid = 'XXXX-XXXX-XXXX-XXXX';
-    static $AppKey = 'XXXXXXXXXXXXXXXX';
+    // TODO: Get your ClientId and ClientSecret at https://dashboard.groupdocs.cloud (free registration is required)
+    static $ClientId = 'XXXX-XXXX-XXXX-XXXX';
+    static $ClientSecret = 'XXXXXXXXXXXXXXXX';
 
     static $ApiBaseUrl = 'https://api.groupdocs.cloud';
 	static $MyStorage = 'First Storage';
@@ -16,8 +16,8 @@ class Utils {
         $configuration = new GroupDocs\Comparison\Configuration();
 
         // Seting the configurations
-        $configuration->setAppSid(Utils::$AppSid);
-        $configuration->setAppKey(Utils::$AppKey);
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
         $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
 
         // Retrun the new ComparisonAPI instance
@@ -30,13 +30,27 @@ class Utils {
         $configuration = new GroupDocs\Comparison\Configuration();
 
         // Seting the configurations
-        $configuration->setAppSid(Utils::$AppSid);
-        $configuration->setAppKey(Utils::$AppKey);
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
         $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
 
         // Retrun the new Info instance
         return new GroupDocs\Comparison\InfoApi($configuration);
     }
+
+    // Getting the Review API Instance
+    public static function GetReviewApiInstance() {
+        // intializing the configuration
+        $configuration = new GroupDocs\Comparison\Configuration();
+
+        // Seting the configurations
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
+        $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
+
+        // Retrun the new API instance
+        return new GroupDocs\Comparison\ReviewApi($configuration);
+    }    
 
 	// Getting the Comparison StorageAPI API Instance
     public static function GetStorageApiInstance() {
@@ -44,8 +58,8 @@ class Utils {
         $configuration = new GroupDocs\Comparison\Configuration();
 
         // Seting the configurations
-        $configuration->setAppSid(Utils::$AppSid);
-        $configuration->setAppKey(Utils::$AppKey);
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
         $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
 
         // Retrun the new StorageApi instance
@@ -58,8 +72,8 @@ class Utils {
         $configuration = new GroupDocs\Comparison\Configuration();
 
         // Seting the configurations
-        $configuration->setAppSid(Utils::$AppSid);
-        $configuration->setAppKey(Utils::$AppKey);
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
         $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
 
         // Retrun the new FolderApi instance
@@ -72,8 +86,8 @@ class Utils {
         $configuration = new GroupDocs\Comparison\Configuration();
 
         // Seting the configurations
-        $configuration->setAppSid(Utils::$AppSid);
-        $configuration->setAppKey(Utils::$AppKey);
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
         $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
 
         // Retrun the new FileApi instance

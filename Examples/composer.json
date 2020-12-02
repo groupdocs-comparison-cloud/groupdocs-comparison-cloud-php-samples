@@ -1,8 +1,8 @@
 {
     "name": "groupdocscloud/groupdocs-comparison-cloud-php-examples",
     "description": "GroupDocs.Comparison Cloud SDK for PHP Examples",
-    "license": "MIT",
+    "license": "MIT", 
     "require": {
-        "groupdocscloud/groupdocs-comparison-cloud": "20.5"
+        "groupdocscloud/groupdocs-comparison-cloud": "20.12"
     }
 }
