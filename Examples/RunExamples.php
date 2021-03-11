@@ -19,6 +19,8 @@ include(__DIR__ . '\AdvancedUsage\GetChangesCoordinates.php');
 include(__DIR__ . '\AdvancedUsage\GetListOfChanges.php');
 include(__DIR__ . '\AdvancedUsage\Revisions\GetListOfRevisions.php');
 include(__DIR__ . '\AdvancedUsage\Revisions\ApplyRevisions.php');
+include(__DIR__ . '\AdvancedUsage\Revisions\AcceptAllRevisions.php');
+include(__DIR__ . '\AdvancedUsage\Revisions\RejectAllRevisions.php');
 
 // Uploading sample files into storage
 Utils::UploadResources();
@@ -42,3 +44,6 @@ GetChangesCoordinates::Run();
 GetListOfChanges::Run();
 GetListOfRevisions::Run();
 ApplyRevisions::Run();
+AcceptAllRevisions::Run();
+RejectAllRevisions::Run();
+
