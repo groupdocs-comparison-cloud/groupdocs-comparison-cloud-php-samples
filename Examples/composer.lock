@@ -4,21 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6843c15d0451569c30dffcbad93635c7",
+    "content-hash": "e51481a701c0874aa14dee7f48d7dd98",
     "packages": [
         {
             "name": "groupdocscloud/groupdocs-comparison-cloud",
-            "version": "21.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php.git",
-                "reference": "ad8be1af3e81c251779daf53855b621af24689d7"
-            },
+            "version": "21.3.1",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php/zipball/ad8be1af3e81c251779daf53855b621af24689d7",
-                "reference": "ad8be1af3e81c251779daf53855b621af24689d7",
-                "shasum": ""
+                "type": "path",
+                "url": "../../../GitLab/PhpSdk/src",
+                "reference": "2e9e19cba224ae64d4fabaaf8e33a5fa49483a90"
             },
             "require": {
                 "ext-curl": "*",
@@ -41,7 +35,14 @@
                     "GroupDocs\\Comparison\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "classmap": [
+                    "src/"
+                ],
+                "psr-4": {
+                    "GroupDocs\\Comparison\\": "tests/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -61,11 +62,9 @@
                 "php",
                 "sdk"
             ],
-            "support": {
-                "issues": "https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php/issues",
-                "source": "https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php/tree/v21.3"
-            },
-            "time": "2021-03-11T06:33:29+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -132,10 +131,6 @@
                 "rest",
                 "web service"
             ],
-            "support": {
-                "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/6.5"
-            },
             "time": "2020-06-16T21:01:06+00:00"
         },
         {
@@ -187,24 +182,20 @@
             "keywords": [
                 "promise"
             ],
-            "support": {
-                "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/1.4.1"
-            },
             "time": "2021-03-07T09:25:29+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.7.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3"
+                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/53330f47520498c0ae1f61f7e2c90f55690c06a3",
-                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/35ea11d335fd638b5882ff1725228b3d35496ab1",
+                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1",
                 "shasum": ""
             },
             "require": {
@@ -262,11 +253,7 @@
                 "uri",
                 "url"
             ],
-            "support": {
-                "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/1.7.0"
-            },
-            "time": "2020-09-30T07:37:11+00:00"
+            "time": "2021-03-21T16:25:00+00:00"
         },
         {
             "name": "psr/http-message",
@@ -316,9 +303,6 @@
                 "request",
                 "response"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/http-message/tree/master"
-            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -359,10 +343,6 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
-            "support": {
-                "issues": "https://github.com/ralouphie/getallheaders/issues",
-                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
-            },
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
@@ -433,9 +413,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.22.1"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -517,9 +494,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.22.1"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -593,9 +567,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php72/tree/v1.22.1"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -621,5 +592,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }
