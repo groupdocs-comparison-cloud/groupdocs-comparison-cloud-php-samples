@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11d9286790c3c480ddc295a1428ee46a",
+    "content-hash": "d134663871b3a59ed582281fbc01d29a",
     "packages": [
         {
             "name": "groupdocscloud/groupdocs-comparison-cloud",
-            "version": "23.12",
+            "version": "24.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php.git",
-                "reference": "2e4c8739dd344d9a619198d02872897ff524a641"
+                "reference": "f3768ee11b0616c26f9c0b47b43791ea67556f7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php/zipball/2e4c8739dd344d9a619198d02872897ff524a641",
-                "reference": "2e4c8739dd344d9a619198d02872897ff524a641",
+                "url": "https://api.github.com/repos/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php/zipball/f3768ee11b0616c26f9c0b47b43791ea67556f7f",
+                "reference": "f3768ee11b0616c26f9c0b47b43791ea67556f7f",
                 "shasum": ""
             },
             "require": {
@@ -61,9 +61,9 @@
             ],
             "support": {
                 "issues": "https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php/issues",
-                "source": "https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php/tree/v23.12"
+                "source": "https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-php/tree/v24.2"
             },
-            "time": "2023-12-13T17:48:44+00:00"
+            "time": "2024-02-26T09:25:02+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
