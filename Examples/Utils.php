@@ -52,6 +52,20 @@ class Utils {
         return new GroupDocs\Comparison\ReviewApi($configuration);
     }    
 
+    // Getting the Preview API Instance
+    public static function GetPreviewApiInstance() {
+        // intializing the configuration
+        $configuration = new GroupDocs\Comparison\Configuration();
+
+        // Seting the configurations
+        $configuration->setAppSid(Utils::$ClientId);
+        $configuration->setAppKey(Utils::$ClientSecret);
+        $configuration->setApiBaseUrl(Utils::$ApiBaseUrl);
+
+        // Retrun the new API instance
+        return new GroupDocs\Comparison\PreviewApi($configuration);
+    }     
+
 	// Getting the Comparison StorageAPI API Instance
     public static function GetStorageApiInstance() {
         // intializing the configuration
